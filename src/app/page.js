@@ -3,10 +3,11 @@ import Heading from "@/components/Heading";
 import Review from "@/components/Review";
 import { testimonials } from "../../testimonial";
 import Image from "next/image"
+import Heading2 from "@/components/Heading2";
 export default function Home() {
   return (
     <>
-      <Heading />
+      <Heading content={"Productivty that flows with your life."} />
       <div className="text-475569 text-center text-2xl mt-6">
         <p>
           Unleash your potential by harmonizing your daily tasks and habits
@@ -24,7 +25,7 @@ export default function Home() {
     <p className="font-semibold text-xl ">What other Say</p>
     </div>
    
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center ">
       {testimonials.map((testimonial, index) => (
         <Review
           key={index}
@@ -34,6 +35,9 @@ export default function Home() {
           image={testimonial.image}
         />
       ))}
+    </div>
+    <div className="mt-11">
+    <Heading2  content={"Robust Features"} />
     </div>
     </>
   );
