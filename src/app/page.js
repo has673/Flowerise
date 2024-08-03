@@ -1,9 +1,11 @@
-import Button from "@/components/button";
+import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import Review from "@/components/Review";
 import { testimonials } from "../../testimonial";
 import Image from "next/image"
 import Heading2 from "@/components/Heading2";
+import Box from "@/components/Box";
+
 export default function Home() {
   return (
     <>
@@ -39,6 +41,7 @@ export default function Home() {
     <div className="mt-11">
     <Heading2  content={"Robust Features"} />
     </div>
+    <Box/>
     </>
   );
 }

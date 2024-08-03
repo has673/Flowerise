@@ -1,6 +1,6 @@
 export const testimonials = [
     {
-      text: "Flowrise has revolutionized my workday! It adapts to my energy and helps me optimize my daily tasks. I'm more productive and happier than ever!",
+      text: "Flowrise has revolutionized my workday! It adapts to my energy and helps me optimize my daily tasks. I'm more productive  than ever!",
       name: "Emily W.",
       title: "UX Designer",
       image: "/Emily W.png", // Replace with actual image path

@@ -18,6 +18,9 @@ module.exports = {
       width:{
         '41': '10.25rem',
       },
+      colors:{
+        Ace:'#0E7490',
+      }
     },
   },
   plugins: [],
