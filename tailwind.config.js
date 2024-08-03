@@ -1,3 +1,5 @@
+const { Nunito } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -15,6 +17,9 @@ module.exports = {
       height:{
         '13.5': '3.375rem', 
         '200':'60rem'
+      },
+      fontFamily:{
+        sans: ['Nunito', 'sans-serif'],
       },
       width:{
         '41': '10.25rem',
