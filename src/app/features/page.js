@@ -2,11 +2,28 @@ import React from 'react'
 import Box from '@/components/Box'
 import { testimonials } from '../../../testimonial'
 import Review from '@/components/Review'
-
+import { icons } from '../../../icon'
+import Icon from '@/components/Icon'
+import Heading2 from '@/components/Heading2'
 
 const page = () => {
   return (
     <>
+    <div className="mt-11">
+        <Heading2 content={"Robust Features"} />
+      </div>
+    <div className="flex flex-wrap justify-center space-x-16 my-12 ">
+    {icons.map((icon, index) => (
+      <Icon
+        key={index}
+        text={icon.text}
+        p1={icon.p1}
+        p2={icon.p2}
+        p3={icon.p3}
+        image={icon.image}
+      />
+    ))}
+  </div>
     <div className="flex justify-center">
     <Box
       img={"/image 20.png"}

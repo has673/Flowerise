@@ -21,7 +21,8 @@ module.exports = {
       colors:{
         Ace:'#0E7490',
         heading:'#334155',
-        text:  '#64748B'
+        text:  '#64748B',
+        text1:"#475569"
       },
       margin:{
         '60':'15rem'

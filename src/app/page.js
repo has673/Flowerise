@@ -6,12 +6,14 @@ import Image from "next/image";
 import Heading2 from "@/components/Heading2";
 import Box from "@/components/Box";
 import Box2 from "@/components/Box2";
+import { icons } from "../../icon";
+import Icon from "@/components/Icon";
 
 export default function Home() {
   return (
     <>
       <Heading content={"Productivty that flows with your life."} />
-      <div className="text-475569 text-center text-2xl mt-6">
+      <div className="text-text1 text-center text-2xl mt-6">
         <p>Unleash your potential by harmonizing your daily tasks and habits</p>
         <p>with your unique energy rhythms.</p>
       </div>
@@ -39,6 +41,18 @@ export default function Home() {
       <div className="mt-11">
         <Heading2 content={"Robust Features"} />
       </div>
+      <div className="flex flex-wrap justify-center space-x-16 my-12 ">
+      {icons.map((icon, index) => (
+        <Icon
+          key={index}
+          text={icon.text}
+          p1={icon.p1}
+          p2={icon.p2}
+          p3={icon.p3}
+          image={icon.image}
+        />
+      ))}
+    </div>
       <div className="flex justify-center">
         <Box
           img={"/image 20.png"}
