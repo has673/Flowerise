@@ -8,6 +8,7 @@ import Box from "@/components/Box";
 import Box2 from "@/components/Box2";
 import { icons } from "../../icon";
 import Icon from "@/components/Icon";
+import Card from "@/components/Card";
 
 export default function Home() {
   return (
@@ -81,6 +82,9 @@ export default function Home() {
           p2={"Embrace self-care routines"}
           p3={"fotser a healthier liefstyle"}
         />
+      </div>
+      <div className="flex justify-center mt-24">
+      <Card/>
       </div>
     </>
   );

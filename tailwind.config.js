@@ -14,9 +14,11 @@ module.exports = {
       },
       height:{
         '13.5': '3.375rem', 
+        '200':'60rem'
       },
       width:{
         '41': '10.25rem',
+        "100":"50rem",
       },
       colors:{
         Ace:'#0E7490',

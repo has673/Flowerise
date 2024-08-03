@@ -5,6 +5,8 @@ import Review from '@/components/Review'
 import { icons } from '../../../icon'
 import Icon from '@/components/Icon'
 import Heading2 from '@/components/Heading2'
+import Card from '@/components/Card'
+
 
 const page = () => {
   return (
@@ -48,6 +50,10 @@ const page = () => {
             image={testimonial.image}
           />
         ))}
+      </div>
+
+      <div className="flex justify-center mt-24">
+      <Card/>
       </div>
   </>
 

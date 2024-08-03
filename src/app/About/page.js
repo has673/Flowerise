@@ -2,7 +2,7 @@ import React from 'react'
 import Box from '@/components/Box'
 import { testimonials } from '../../../testimonial'
 import Review from '@/components/Review'
-
+import Card from '@/components/Card'
 
 const page = () => {
   return (
@@ -19,6 +19,9 @@ const page = () => {
             image={testimonial.image}
           />
         ))}
+      </div>
+      <div className="flex justify-center mt-24">
+      <Card/>
       </div>
   </>
 

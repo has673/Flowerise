@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -12,8 +13,8 @@ const Footer = () => {
         <p className="mb--4">©2023 Flowrise</p>
         <div>
           <ul className="flex flex-row justify-between mx-6">
-            <li className="mx-6">Features</li>
-            <li  className="mx-6">About</li>
+            <Link href={"features"} className="mx-6">Features</Link>
+            <Link href={"About"}  className="mx-6">About</Link>
           </ul>
         </div>
       </div>
