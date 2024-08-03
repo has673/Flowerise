@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <div className="flex flex-row my-7 justify-between items-center">
         <div className="ml-10 ">
-          <Image src="/logo.png" width={142} height={32} alt="logo" priority />
+          <Image src="/Logo.png" width={142} height={32} alt="logo" priority />
         </div>
         <div>
           <ul className="flex flex-row justify-between mx-6">
