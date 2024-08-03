@@ -20,6 +20,11 @@ module.exports = {
       },
       colors:{
         Ace:'#0E7490',
+        heading:'#334155',
+        text:  '#64748B'
+      },
+      margin:{
+        '60':'15rem'
       }
     },
   },
