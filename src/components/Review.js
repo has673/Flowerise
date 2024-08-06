@@ -3,7 +3,7 @@ import React from "react";
 
 const Review = ({text,name,title,image}) => {
   return (
-    <div className="bg-pink-300 w-96 h-70 rounded-xl mx-5">
+    <div className="bg-Ace w-96 h-70 rounded-xl mx-5">
       <div>
         <p className="text-xl ml-3">
           {text}
